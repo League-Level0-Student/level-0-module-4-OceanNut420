@@ -40,6 +40,15 @@ public class SleepyHead {
         if(isWeekday == true && isVacation == true) {
         	JOptionPane.showMessageDialog(null, "go sleep u lucky brurbrubrubrubrbruh");
         }
+        else if(isWeekday == true && isVacation == false) {
+        	JOptionPane.showMessageDialog(null, "corona time");
+        }
+        else if(isWeekday == false && isVacation == false) {
+        	JOptionPane.showMessageDialog(null, "i put u 2 sleep");
+        }
+        else if(isWeekday == false && isVacation == true) {
+        	JOptionPane.showMessageDialog(null, "go sleepo mode");
+        }
         
     }
 }
