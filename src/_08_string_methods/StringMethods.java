@@ -11,13 +11,18 @@ public class StringMethods {
 		String momnite = "fortnite";
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
-		momnite.charAt;
+		System.out.println(momnite.charAt(2));
 		// 3. Print the length of your String to the console.
 		//    HINT: .length()
-
+		System.out.println(momnite.length());
 		// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
-
+	
+		for(int i = 0; i < momnite.length(); i++) {
+	
+			System.out.println(momnite.charAt(i));
+			 
+		}
 		
 		// 5. Pick a char inside your String, and use a loop to determine
 		//    what position/index in the String the char is located.
